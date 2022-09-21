@@ -369,25 +369,9 @@ int main(int argc, char *argv[]){
           cout << "\n Finalizando programa!";
           break;
       }
-			/*case 8: {
-                cout << "\n Exibindo floats do nÃ³ Apple: \n";
-                No* nodePointer;
-                float * floatPointer;
-                nodePointer = AVLTree.pesquisar("Apple");
-                cout << nodePointer->getChave() << "\n";
-                floatPointer = nodePointer->getInfo();
-                for (int i = 0; i < columns-1; i++)
-                    cout << " | " << floatPointer[i];
-			}*/
-            /*
-			default:
-			    if (opcao != 5)
-                    cout << "\n Opcao invalida! \n\n\n";
-             // fim switch*/
         }
     } while(opcao != 7);
 
 
 	return 0;
 }
-//comentario
